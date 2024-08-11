@@ -1,11 +1,13 @@
 # 快速开始
 ## 下载和使用
 ### 1.下载
-可以从 [NuGet 包](https://www.nuget.org/packages/StarLight_Core ) 获取 StarLight_Core，
+下载代码或者从 NuGet 引用库
+可以从 [NuGet](https://www.nuget.org/packages/StarLight_Core ) 获取 StarLight_Core，
 或者在 [GitHub 存储库](https://github.com/Ink-Marks-Studio/StarLight.Core) 下载文件。
+
 ### 2.配置
 在你的 CSharp 文件中添加引用代码：
-```
+```csharp
 using StarLight_Core;
 
 using StarLight_Core.Authentication; // 验证器
